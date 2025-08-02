@@ -11,7 +11,7 @@ import {
   Divider
 } from '@mui/material';
 import { Add, Remove, Delete } from '@mui/icons-material';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
   const [cart, setCart] = useState([]);

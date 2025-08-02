@@ -10,7 +10,7 @@ import {
   Divider,
   Alert
 } from '@mui/material';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const Checkout = () => {
   const [cart, setCart] = useState([]);

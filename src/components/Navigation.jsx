@@ -8,9 +8,9 @@ import {
   IconButton
 } from '@mui/material';
 import { ShoppingCart, Person, Logout, DarkMode, LightMode } from '@mui/icons-material';
-import { Link, useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../context/themeHook';
 import { useState, useEffect } from 'react';
 import techHubLight from '../assets/techhub-light.png';
 import techHubDark from '../assets/techhub-dark.png';
